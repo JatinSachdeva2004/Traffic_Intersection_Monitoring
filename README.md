@@ -1,4 +1,4 @@
-#Traffic Intersection Monitoring System with OpenVINO
+# **Traffic Intersection Monitoring System with OpenVINO**
 
 This project implements a real-time traffic monitoring solution that detects vehicles, pedestrians, and traffic violations at intersections using object detection models optimized with OpenVINO. It features a PyQt5-based dashboard for visualization and control, integrates synthetic data generation using CARLA, and supports enhanced scene understanding through vision-language models.
 
