@@ -1,47 +1,42 @@
-# Streamlit UI & Live Video
-streamlit==1.45.1
-streamlit-option-menu==0.4.0
-streamlit-webrtc==0.62.4
+# Streamlit app UI & webcam
+streamlit==1.27.2
+streamlit-option-menu==0.3.6
+streamlit-webrtc==0.45.2
 
-# Core AI & Vision
-ultralytics==8.3.151
-torch==2.5.1
-torchvision==0.20.1
-opencv-python-headless==4.11.0.86
-onnx==1.14.0
-onnxruntime==1.17.3
-openvino==2024.6.0
-openvino-dev==2024.6.0
-easyocr==1.7.2
-pytesseract==0.3.13
-python-bidi==0.6.6
+# AI & Vision
+torch==2.1.0
+torchvision==0.16.0
+ultralytics==8.0.187
+opencv-python-headless==4.7.0.72
+openvino==2023.3.0
+openvino-dev==2023.3.0
+easyocr==1.6.2
+pytesseract==0.3.10
+python-bidi==0.4.2
 
-# Utilities for AI
-numpy==1.26.4
-scikit-learn==1.7.0
-pandas==2.2.3
-matplotlib==3.10.3
-seaborn==0.13.2
-plotly==6.1.2
-shapely==2.1.1
-scipy==1.15.3
-
-# Real-time & Tracking
-aiortc==1.13.0
-av==14.4.0
-aiohttp==3.12.9
+# Utility & Tracking
 deep-sort-realtime==1.3.2
 filterpy==1.4.5
+numpy==1.24.4
+pandas==1.5.3
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.17.0
+scikit-learn==1.3.2
+shapely==2.0.2
+scipy==1.11.4
 
-# OCR Helper
-PyYAML==6.0.1
+# Real-time support
+aiohttp==3.8.5
+aiortc==1.4.0
+av==10.0.0
 
-# Misc utilities
-tqdm==4.67.1
+# Misc
 requests==2.31.0
-python-dotenv==1.1.0
-joblib==1.5.1
-typing_extensions==4.12.1
-pillow==10.3.0
-altair==5.5.0
-watchdog==6.0.0
+python-dotenv==1.0.1
+tqdm==4.66.1
+joblib==1.3.2
+typing_extensions==4.8.0
+pillow==9.5.0
+altair==5.0.1
+watchdog==3.0.0
