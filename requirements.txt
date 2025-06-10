@@ -14,7 +14,7 @@ ultralytics-thop
 openvino
 openvino-dev
 openvino-telemetry
-
+nncf
 # CV and OCR
 opencv-python
 opencv-python-headless
