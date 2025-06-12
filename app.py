@@ -391,7 +391,7 @@ class TrafficMonitoringApp:
             
             # OpenVINO Settings
             with st.expander("🚀 OpenVINO Settings", expanded=True):
-                device_options = ['AUTO', 'CPU', 'GPU', 'MYRIAD']
+                device_options = ['AUTO', 'CPU', 'GPU']
                 device = st.selectbox(
                     "OpenVINO Device",
                     device_options,
