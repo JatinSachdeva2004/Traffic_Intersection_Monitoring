@@ -211,17 +211,20 @@ st.markdown("""
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
-    .stButton > button {
-        background: linear-gradient(145deg, #2E86AB, #1e6091);
-        color: white;
-        border: none;
-        border-radius: 5px;
-        font-weight: bold;
-    }
-    .stSelectbox > div > div {
-        background: #f8f9fa;
-        border-radius: 5px;
-    }
+.stButton > button {
+    background: white;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.stSelectbox > div > div {
+    background: white;
+    color: black;
+    border-radius: 5px;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
