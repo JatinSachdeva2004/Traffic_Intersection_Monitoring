@@ -201,14 +201,16 @@ st.markdown("""
         margin: 0.5rem 0;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
-    .openvino-status {
-        background: linear-gradient(145deg, #ebf8ff, #bee3f8);
-        padding: 1rem;
-        border-radius: 10px;
-        border-left: 4px solid #3182ce;
-        margin: 1rem 0;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
+   .openvino-status {
+    background: white; 
+    color: black;      
+    padding: 1rem;
+    border-radius: 10px;
+    border-left: 4px solid #3182ce; 
+    margin: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
     .stButton > button {
         background: linear-gradient(145deg, #2E86AB, #1e6091);
         color: white;
